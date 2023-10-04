@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Asistente INACAP</string>
+    <string name="button_quit">Salir</string>
+    <string name="perfil1" />
+    <string name="button_perfil">Miguel Andana</string>
+    <string name="button_search">Buscar Ubicación</string>
+    <string name="Avatar">Perfil</string>
+    <string name="Mapa">Mapa\n</string>
+</resources>
