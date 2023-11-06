@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Indicadores Económicos</string>
+    <string name="dolar_hint">Dolar observado</string>
+    <string name="Euro_hint">Euro</string>
+    <string name="uf_hint">Unidad de Fomento</string>
+    <string name="utm_hint">Unidad Tributaria Mensual</string>
+</resources>
