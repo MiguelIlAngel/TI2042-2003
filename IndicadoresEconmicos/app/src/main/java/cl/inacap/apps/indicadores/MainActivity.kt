@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         }
         val indicador = indicadorResponse.await()
         val unidadMedida = indicador?.unidadMedida
-        val valor = indicador?.serie?.get(0)?.get("valor")
+        val valor = indicador?.serie?.get(0)?.valor
         field.setText("${valor} ${unidadMedida}")
     }
 }
