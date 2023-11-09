@@ -14,7 +14,7 @@ class IndicadoresApiAdapter {
     fun getIndicador(tipo:String, fecha:String): IndicadorResponse? {
         var call = indicadoresApi.create(IndicadoresApi::class.java)
             .getIndicador(tipo, fecha).execute()
-            return call.body()
+        return call.body()
 
     }
 }
