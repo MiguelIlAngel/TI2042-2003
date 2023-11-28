@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- Aquí reemplaza todo este contenido con el código XML que proporcionaste -->
 
     <EditText
         android:id="@+id/editTextTitle"

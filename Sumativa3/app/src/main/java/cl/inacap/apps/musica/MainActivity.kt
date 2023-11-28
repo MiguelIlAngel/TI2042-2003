@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
         val genre = editTextGenre.text.toString()
         val duration = editTextDuration.text.toString()
 
-        val newSong = Song(title, artist, genre, duration) // Crear un objeto Song con los datos ingresados por el usuario
+        val newSong = Song(title, artist, genre, duration)
 
         val musicService = MusicAPIAdapter.getMusicAPIService()
 
