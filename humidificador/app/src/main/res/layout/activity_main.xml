@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/humidityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Humedad actual: 50%"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Humidifier"
+        android:layout_below="@id/humidityTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/buttonStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Humidifier"
+        android:layout_below="@id/buttonStart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/buttonOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn Off"
+        android:layout_below="@id/buttonStop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
